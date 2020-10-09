@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.container {
+	width: 800px;
+	display: block;
+	margin: 0 auto;
+}
+header div div div {
+	height: 30px;
+	line-height: 30px;
+}
+header div div div:first-child {
+	font-size: 10px;
+}
+header div div div:last-child {
+	text-align: right;
+}
+h3 {
+	line-height: 30px;
+	text-align: center;
+	margin: 0px;
+	font-weight: bold;
+}
+#messages {
+	float: left;
+	color: #ff0000;
+}
+#blackboard {
+  display: block;
+  background-color: #000000;
+  margin: 0 auto;
+  padding: 0;
+	cursor: none;
+	border: 6px solid #ffffff;
+}
+footer {
+  width: 100%;
+  border-top: 1px solid #FFFFFF;
+  position: fixed;
+  bottom: 0;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+.foot {
+  height: 20px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.container {
+  text-align: center;
+}
+.foot div p {
+  color: #999;
+  text-align: center;
+  font-size: 0.7em;
+  line-height: 20px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1' name='viewport'/>
+		<title>Worm</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="styles.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4">
+						KEYS: (S)tart, (Q)uit, (R)eset, (P)ause
+					</div>
+					<div class="col-xs-4">
+						<h3>WORM</h3>
+					</div>
+					<div class="col-xs-4">
+						<span id="messages"></span>
+						Score: <span id="score">0</span>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<canvas width="800" height="600" id="blackboard">Your browser does not support the HTML5 canvas tag.</canvas>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="foot">
+				<div class="container">
+					<p>All rights reserved <a href="http://exist3d.com" target="_blank">eXist3D</a></p>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="swipe.js"></script>
+		<script type="text/javascript" src="behav.js"></script>
+	</body>
+</html>
